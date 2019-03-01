@@ -1,6 +1,6 @@
 # Spectacle Slide Templates
 
-This repo shows you how you can make your own slide templates for [Spectacle](https://github.com/FormidableLabs/spectacle). Take a look at the source files for an in-depth guide, but the gist is this:
+This repo shows you how you can make your own slide templates for [Spectacle](https://github.com/FormidableLabs/spectacle). Take a look at the source files and the [demo repo](https://github.com/boardfish/spectacle-slide-templates-demo) for an in-depth guide, but the gist is this:
 
 - You can define your theme in a JS object or function. Import it for your deck, and if your slide relies on it in some way, import them there too. Most importantly, `themeConfig` and `fontConfig` in `theme.js` can be used to create a deck theme: `createTheme(themeConfig, fontConfig)`.
 - Bear in mind the `JS object expansion syntax` – {...theme.slideDefaults}, for example. This can be used to turn a JS object into props, and it's very useful when creating slide templates and loading config from themes.
